@@ -1,0 +1,88 @@
+/* *{
+
+    margin: 0px;
+    padding: 0px;
+} */
+
+body{
+    background-color:lightcyan;
+} 
+
+.training-section {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.training-section h1 {
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.container{
+    
+    width: 970px;
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+
+.training-items
+
+{
+
+flex-basis: 30%;
+margin: 10px 0px;
+background-color: white ;
+box-shadow: 0px 0px 10px 3px lightgray;
+padding: 25px 0px;
+text-align: center;
+
+
+}
+
+.training-items h3{
+
+    padding: 20px 0px;
+}
+
+.training-items p{
+
+    font-size: 14px;
+    padding: 10px;
+}
+
+.training-items button{
+    background-color: rgb(171, 249, 249);
+    padding: 10px 25px;
+    color:black ;
+    border: none;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.training-items:hover{
+
+    background-color: rgb(197, 197, 197);
+}
+
+.training-items:hover button{
+
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+
+@media only screen and (min-width: 200px) and (max-width: 1200px) {
+    .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .training-items{
+        margin: 10px;
+    }
+    
+}
