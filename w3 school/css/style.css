@@ -1,0 +1,187 @@
+* {
+    
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} 
+
+body
+{
+
+    background-color: #282A35;
+}
+
+ .main-container
+
+{
+    border-radius: 6px;
+    width:100%;
+   
+} 
+
+#container-1
+
+{
+    
+    display: grid;
+    gap:8px ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-template-columns:repeat(2 ,1fr);
+    
+   
+}
+
+#container-2 
+
+{
+    display: grid;
+    gap:25px ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-template-columns:repeat(4 ,1fr);
+   
+} 
+
+#container-3 {
+
+    display: grid; 
+    gap:8px;
+    margin-bottom: 50px;
+    grid-template-columns:repeat(2 ,1fr);
+    
+}
+
+.box {
+    padding: 60px ;
+    
+}
+  
+.w-50 {
+    width: 81%;
+    border-radius: 6px;
+    text-align: center;
+    margin: auto;
+    
+
+}
+
+.w-25 {
+    width: 60%;
+    border-radius: 6px;
+    text-align: center;
+    margin: auto;
+}
+
+.pink{
+    background-color:#FFC0C7 ;
+   
+}
+
+.yellow{
+    background-color:#FFF4A3 ;
+}
+
+.offwhite{
+    background-color:#F3ECEA ;
+}
+
+.mintgreen{
+    background-color:#D9EEE1 ;
+}
+
+.aqua{
+    background-color:#96D4D4 ;
+}
+
+.silver{
+    background-color:#E7E9EB ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* { 
+
+    background-color: rgb(12, 13, 14);
+    padding: 100px ;
+    display: flex;
+    justify-content: center;
+    width: 80%; */
+    
+    
+   
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    /* flex-grow: 10; */
+    /* flex-shrink: 5; */
+    /* flex-basis: 130px; */
+    /* flex: 5 0 auto; */
+    /* column-gap: 5px; */
+    /* justify-content: flex-start; */
+    /* align-content: space-evenly; */ 
+    /* gap: 100px;   */
+    /* margin-top: 15px;  */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+     /* flex-direction: row;   */
+    /* /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */ 
+    /* flex-flow: wrap row; */
+    
+    /* justify-content: flex-end;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly;  */
+
+    /* align-items: stretch; 
+    align-items: start;  
+    align-items: end; 
+    align-items: center;  
+    align-content: start; 
+    align-content: end; 
+    align-content: center; 
+    align-content: space-around; 
+    align-content: space-between;  
+     gap: 5px 5px; */ 
+    
+/* }  */
+
+ 
